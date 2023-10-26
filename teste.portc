@@ -1,0 +1,5 @@
+programa olaMundo
+escreva "Hello, World!";
+inteiro numero = 42;
+escreva "O número é:", numero;
+fimprograma

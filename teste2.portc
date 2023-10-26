@@ -1,0 +1,27 @@
+programa meuPrograma
+inteiro a = 5;
+inteiro b = 10;
+escreva "Bem-vindo ao meu programa!";
+escreva "Por favor, escolha uma operação:";
+escreva "1. Soma";
+escreva "2. Subtração";
+escreva "3. Multiplicação";
+escreva "4. Divisão";
+leia operacao;
+se (operacao == 1) {
+    inteiro resultado = a + b;
+    escreva "A soma é:", resultado;
+} senao se (operacao == 2 ) {
+    inteiro resultado = a - b;
+    escreva "A subtração é:", resultado;
+} senao se (operacao == 3) {
+    inteiro resultado = a * b;
+    escreva "A multiplicação é:", resultado;
+} senao se (operacao == 4) {
+    inteiro resultado = a / b;
+    escreva "A divisão é:", resultado;
+} senao {
+    escreva "Operação inválida!";
+}
+escreva "Fim do programa.";
+fimprograma
